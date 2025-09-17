@@ -1,4 +1,4 @@
-# App Boletos Tren
+# Prueba Eleccion de Asientos Tren
 
 Aplicación móvil desarrollada en **Flutter** que permite a los usuarios iniciar sesión, seleccionar sus asientos en un tren y completar el proceso de compra.  
 Probado en **Windows**.
