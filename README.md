@@ -19,15 +19,23 @@ Manejo de estado con Riverpod para controlar los asientos seleccionados y el log
 Estructura del proyecto
 lib/
 ├── main.dart                # Punto de entrada de la app
+
 ├── routes/
 │   └── app_router.dart      # Configuración de rutas con GoRouter
+
 ├── views/
 │   ├── login_screen.dart    # Pantalla de inicio de sesión
+
 │   ├── seats_screen.dart    # Pantalla de selección de asientos
+
 │   └── checkout_screen.dart # Pantalla de confirmación/checkout
+
 ├── providers/
+
 │   └── app_providers.dart   # Proveedores de estado con Riverpod
+
 └── assets/                  # Imágenes usadas en la app (asientos, vagón, etc.)
+
 
 Requisitos
 
