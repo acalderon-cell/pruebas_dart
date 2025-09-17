@@ -30,51 +30,31 @@ lib/
 ├── providers/
 │   └── app_providers.dart   # Providers de estado
 └── assets/                  # Imágenes usadas en la app (asientos, vagón, etc.)
+```
 
----
+## Requisitos
 
-Requisitos
-Windows (probado en este sistema operativo)
+- **Windows** (probado en este sistema operativo)
+- **Flutter SDK**
+- **Dart**
 
-+ Flutter SDK
+### Dependencias principales en pubspec.yaml:
+- `flutter_riverpod`
+- `go_router`
 
-+ Dart
+## Ejecución
 
-+ Dependencias principales en pubspec.yaml:
+1. **Clonar este repositorio**
+   ```bash
+   git clone https://github.com/usuario/app-boletos-tren.git
+   ```
 
-+ flutter_riverpod
+2. **Instalar dependencias**
+   ```bash
+   flutter pub get
+   ```
 
-+ go_router
-
----
-
-Ejecución
-Clonar este repositorio
-
-bash
-Copiar código
-git clone https://github.com/usuario/app-boletos-tren.git
-Instalar dependencias
-
-bash
-Copiar código
-flutter pub get
-Ejecutar en Windows
-
-bash
-Copiar código
-flutter run
-markdown
-Copiar código
-
-Este es **Markdown puro**: títulos con `#`, listas con `-`, bloques de código con triple backtick y sin nada extra.  
-
-¿Quieres que te lo prepare también con una **Tabla de Contenidos automática** arriba (para que GitHub genere enlaces a cada sección)?
-
-
-
-
-
-
-
-Preguntar a ChatGPT
+3. **Ejecutar en Windows**
+   ```bash
+   flutter run
+   ```
