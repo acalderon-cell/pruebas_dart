@@ -46,7 +46,7 @@ lib/
 
 1. **Clonar este repositorio**
    ```bash
-   git clone https://github.com/usuario/app-boletos-tren.git
+   git clone https://github.com/acalderon-cell/pruebas_dart.git
    ```
 
 2. **Instalar dependencias**
